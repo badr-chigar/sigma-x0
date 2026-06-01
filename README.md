@@ -12,6 +12,12 @@ Application full-stack de gestion de production : articles, ordres de fabricatio
 ### Ordres de production
 ![Ordres de production](docs/ordres.png)
 
+### Articles
+![Gestion des articles](docs/articles.png)
+
+### Stock
+![Suivi du stock et alertes de réapprovisionnement](docs/stock.png)
+
 
 ## Fonctionnalités
 - **Authentification** par JWT (rôles `admin` / `opérateur`).
