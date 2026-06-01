@@ -4,6 +4,15 @@ Application full-stack de gestion de production : articles, ordres de fabricatio
 
 > Projet personnel de Badr Chigar — Ingénieur d'État en Informatique (EMSI Casablanca), développeur Full Stack Java/Spring & React.
 
+## Captures d'écran
+
+### Tableau de bord
+![Tableau de bord SIGMA X.0](docs/dashboard.png)
+
+### Ordres de production
+![Ordres de production](docs/ordres.png)
+
+
 ## Fonctionnalités
 - **Authentification** par JWT (rôles `admin` / `opérateur`).
 - **Articles** : CRUD complet (matières premières & produits finis, prix, seuil de réappro).
