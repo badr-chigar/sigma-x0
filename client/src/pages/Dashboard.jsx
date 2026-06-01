@@ -15,7 +15,6 @@ export default function Dashboard() {
   ];
   return (
     <div>
-      <h1>Tableau de bord</h1>
       <div className="kpis">
         {cards.map(([l, v, c]) => (
           <div key={l} className={'kpi ' + c}><div className="kpi-v">{v}</div><div className="kpi-l">{l}</div></div>

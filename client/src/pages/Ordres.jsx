@@ -20,7 +20,6 @@ export default function Ordres() {
   async function annuler(o) { await api.setStatut(o.id, 'annule'); load(); }
   return (
     <div>
-      <h1>Ordres de production</h1>
       <form className="row-form" onSubmit={add}>
         <select value={f.article_id} onChange={e => setF({ ...f, article_id: e.target.value })} required>
           <option value="">— Produit —</option>

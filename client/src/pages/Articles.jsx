@@ -16,7 +16,6 @@ export default function Articles() {
   async function del(id) { if (confirm('Supprimer cet article ?')) { await api.deleteArticle(id); load(); } }
   return (
     <div>
-      <h1>Articles</h1>
       <form className="row-form" onSubmit={add}>
         <input placeholder="Référence" value={f.reference} onChange={e => setF({ ...f, reference: e.target.value })} required />
         <input placeholder="Nom" value={f.nom} onChange={e => setF({ ...f, nom: e.target.value })} required />

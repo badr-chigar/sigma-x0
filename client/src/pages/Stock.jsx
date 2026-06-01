@@ -15,7 +15,6 @@ export default function Stock() {
   }
   return (
     <div>
-      <h1>Stock</h1>
       <form className="row-form" onSubmit={add}>
         <select value={f.article_id} onChange={e => setF({ ...f, article_id: e.target.value })} required>
           <option value="">— Article —</option>
